@@ -834,6 +834,7 @@ button:hover {
     background-image: url("images/icon.png");
     background-size: cover;
     align-items: center;
+    margin-bottom: 4rem;
  }
  
 /* Medias */
@@ -843,7 +844,7 @@ button:hover {
     display: grid;
     margin-left: 5%;
     height: 24vh;
-    grid-template-columns: 23vw 23vw 23vw 23vw;
+    grid-template-columns: 9.5vw 14.5vw 9.5vw 14.5vw 9.5vw 14.5vw 9.5vw 14.5vw;
     margin-top: 1rem;
     width: 900px;
     align-items: center;
@@ -852,9 +853,12 @@ button:hover {
     color:#afd5eb;
     font-size: 1rem;
     margin-right: 10rem;
+    margin-bottom: 4rem;
+    align-items: left;
 }
 .medias h1 {
-    margin-left: 44%; 
+    margin-left: 44%;
+    margin-top: 3rem; 
     color: #afd5eb;
     font-weight: 450;
 }
