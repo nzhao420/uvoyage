@@ -9,6 +9,10 @@
     background-clip: inherit;
 
 }
+@-ms-viewport{
+	zoom: extend-to-zoom;
+	width: extend-to-zoom;
+}
 /** HOME PAGE 
     - navbar
     - description
@@ -36,7 +40,7 @@ nav {
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 200px;
+    height: 180px;
     z-index: 1;
     max-width: 1300px;
     margin: 0 auto;
@@ -124,7 +128,7 @@ nav {
     .navbar__container {
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 150px;
         z-index: 1;
         width: 100%;
         max-width: 960px;
@@ -213,6 +217,7 @@ nav {
 /* Description Section CSS */
 .main {
     background-color: #4e87d7;
+    overflow: hidden;
 }
 .main__container {
     display: grid;
@@ -351,6 +356,7 @@ nav {
     flex-direction: row;
     align-items: center;
     height: 40vh;
+    overflow: auto;
 }
 .benefits h1 {
     background-color: #afd5eb;
@@ -374,6 +380,7 @@ nav {
     height: 25vh;
     font-size: 1.5rem;
     color:#afd5eb;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 480px) {
@@ -395,6 +402,7 @@ nav {
     flex-direction: column; 
     align-items: left;
     height: 155vh;
+    overflow: auto;
 }
 .technology h1 {
     background-color: #afd5eb;
@@ -478,15 +486,17 @@ nav {
     justify-content: flex;
     flex-wrap: nowrap;
     margin-left: 22%;
+
 }
 .storyboard {    
     display: grid;
-    grid-template-columns: 48.5vw 51.5vw;
+    grid-template-columns: 48vw 48vw;
     grid-template-rows: 28.9vw 23vw;
     flex-direction: column;        
     align-items: left;
     height: 550px;
     text-wrap: wrap;
+    overflow: auto;
 }
 .storyboard h1 {
     color: #afd5eb;
@@ -496,25 +506,51 @@ nav {
     margin-left: 8rem;
     font-size: 3rem;
     font-weight: 600;
+    overflow: hidden;
+    line-height: 4rem;
 }
 .storyboard__container {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
     height: 460px;
-    width: 48.5vw;
+    width: 48vw;
     position: relative;
     text-align: left;
     color: #c0c7eb;
+    overflow: hidden;
 }
 .storyboard p {
     color: #afd5eb;
     font-size: 1.5rem;
-    margin-right: 1rem;
+    margin-right: 4rem;
+    line-height: 3rem;
+}
+@media screen and (max-width: 1440px) {
+    .storyboard__container {
+        height: 300px;
+    }
+    .storyboard h1 {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+        margin-left: 4rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .storyboard__container {
+        width: 48.5vw;
+        position: relative;
+        text-align: left;
+        color: #c0c7eb;
+    }
+    .storyboard p {
+        color: #afd5eb;
+        font-size: 1rem;
+        margin-right: 0.5rem;
+        line-height: 1.5rem;
+    }
 }
 
-/* Coming Soon Section CSS */
-/* [ Coming soon (lol) ] */
 
 /** TEAMS PAGE 
     - teams
@@ -524,7 +560,7 @@ nav {
 .teams {   
     display: flex;
     flex-direction: column; 
-    align-items: right;       
+    align-items: left;       
     height: 450vh;
     margin-left: 20vw;
 }
@@ -544,6 +580,8 @@ nav {
 .teams h2 {
     font-size: 1.9rem;
     font-weight: 450;
+    height: auto;
+    max-width: 100%
 }
 .teams__container {
     display: grid;
@@ -555,20 +593,30 @@ nav {
 .teams__content {
     margin: 1rem;
     height: 200px;
-    width: 400px;
+    width: 20vw;
     border-radius: 50px;
     text-align: left;
     position: static;
     color: #ffffff;
+    height: auto;
+    max-width: 100%
 }
 .teams__side__container {
-    width: 650px;
+    width: 35vw;
     border: thin solid #afd5eb;
     text-align: center;
 }
 #img {
     max-width: 100%;
     height: auto;
+}
+#left__line {
+    max-height: 12%;  
+    max-width: 100%;
+}
+#right__line {
+    max-height: 12%; 
+    max-width: 100%;
 }
 
 
