@@ -25,7 +25,7 @@ nav {
 }
 
 .navbar {
-    background-image: url("images/purple.jpeg");
+    background-color: #543975;
     background-size: cover;
     height: 150px;
     display: flex;
