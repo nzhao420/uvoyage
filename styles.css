@@ -82,7 +82,7 @@ nav {
 
 .navbar__links {
     color: #fff;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -216,7 +216,7 @@ nav {
 
 /* Description Section CSS */
 .main {
-    background-color: #4e87d7;
+    background-image: linear-gradient(to bottom, #85ade6 0%, #527dba 100%);
     overflow: hidden;
 }
 .main__container {
@@ -359,7 +359,7 @@ nav {
     overflow: auto;
 }
 .benefits h1 {
-    background-color: #afd5eb;
+    background-image: linear-gradient(to bottom, #527dba 0%, #19345b 100%);
     background-size: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
