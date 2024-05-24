@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
@@ -216,7 +216,7 @@ nav {
 
 /* Description Section CSS */
 .main {
-    background-color: #5965a4;
+    /* background-color: #5965a4; */
     overflow: hidden;
 }
 .main__container {
@@ -226,7 +226,7 @@ nav {
     justify-self: center;
     margin: 0 auto;
     height: 75vh;
-    background-color: #5965a4;
+    /* background-color: #5965a4; */
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -340,12 +340,12 @@ nav {
 /* Team Benefits Section CSS */
 .benefits {
     left: 10rem;
-    background: #5965a4;
+    /* background: #5965a4; */
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 40vh;
-    overflow: auto;
+    overflow: hidden;
 }
 .benefits h1 {
     background-color: #afd5eb;
@@ -386,12 +386,12 @@ nav {
 
 /* Technology Section CSS */
 .technology {
-    background: #5965a4;        
+    /* background: #5965a4;         */
     display: flex;
     flex-direction: column; 
     align-items: left;
     height: 155vh;
-    overflow: auto;
+    overflow: hidden;
 }
 .technology h1 {
     background-color: #afd5eb;
@@ -411,12 +411,13 @@ nav {
     flex-direction: row;
     justify-content: flex;
     flex-wrap: nowrap;
+    overflow: auto;
     margin-bottom: 0.7rem;
 }
 .technology__card {
     margin: 1rem;
     height: 200px;
-    width: 850px;
+    width: 1000px;
     border-radius: 4px;
     position: relative;
     color: #8ab1cf;
@@ -437,6 +438,7 @@ nav {
     position: absolute;
     text-align: left;
     margin-top: 20px;
+    font-size: 1.25rem;
     color: #8ab1cf;
 }
 /*.technology__card button {
@@ -902,6 +904,15 @@ button:hover {
     font-weight: 500;
 }
 
+/** Generic Assets 
+    -  spacing lines
+**/
+.spacer {
+    height: 0.14rem;
+    background-color:#8ab1cf;
+    width: 90%;
+    margin: auto;
+}
 
 
 
