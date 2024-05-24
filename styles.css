@@ -27,7 +27,7 @@ nav {
 .navbar {
     background-color: #5965a4;
     background-size: cover;
-    height: 150px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,8 @@ nav {
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 180px;
+    height: 120px;
+    vertical-align: middle;
     z-index: 1;
     max-width: 1300px;
     margin: 0 auto;
@@ -246,7 +247,8 @@ nav {
 .main__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
-    color: #8ab1cf;
+    color: #ffffff;
+    font-weight: 100;
 }
 .main__btn {
     font-size: 1rem;
@@ -368,7 +370,7 @@ nav {
     position: absolute;
     height: 25vh;
     font-size: 1.5rem;
-    color:#8ab1cf;
+    color:#ffffff;
     overflow: hidden;
 }
 
@@ -420,11 +422,11 @@ nav {
     width: 1000px;
     border-radius: 4px;
     position: relative;
-    color: #8ab1cf;
+    color: #ffffff;
 }
 .technology p {
     margin: 1rem;
-    color: #8ab1cf;
+    color: #ffffff;
     text-align: left;
 }
 .technology h2 {
@@ -439,7 +441,7 @@ nav {
     text-align: left;
     margin-top: 20px;
     font-size: 1.25rem;
-    color: #8ab1cf;
+    color: #ffffff;
 }
 /*.technology__card button {
     color: #fff;
@@ -704,7 +706,6 @@ nav {
 **/
 .animation {
     height: 125vh;
-    background: radial-gradient(circle at center, #6b92bb 0%, #8174b1 50%, #9a69a8 75%, #8b4e9b 100%);
 }
 .animation__container {
     display: grid;
@@ -716,7 +717,6 @@ nav {
     width: 1200px;
     margin-left: 2%;
 }
-
 .animation__btn {
     font-size: 2rem;
     padding: 7% 7%;
@@ -727,19 +727,19 @@ nav {
     transition: all 0.15s;
     outline: none; 
 }
-
 .animation__btn a {
     position: relative;
     z-index: 2;
     white-space: wrap;
     color: #c7d2e2;
     text-decoration: none;
-    
 }
 .animation h1 {
     margin-top: 3rem;
-    font-size: 3rem;
-    color: #3ca7a7;
+    font-size: 4rem;
+    color: #8ab1cf;
+    font-weight: 400;
+    text-align: center;
 }
 .animation__container p {
     font-size: 1.25rem;
