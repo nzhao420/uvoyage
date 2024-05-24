@@ -25,7 +25,7 @@ nav {
 }
 
 .navbar {
-    background-image: url("images/purple.jpeg");
+    background-color: #5965a4;
     background-size: cover;
     height: 150px;
     display: flex;
@@ -49,7 +49,7 @@ nav {
 
 #navbar__logo {
     background-color: #1f1670;
-    background-image: linear-gradient(to top, #539cae 0%, #5159a7 50%, #7356a2 100%);
+    background-image: linear-gradient(to top, #8ab1cf 0%, #b09bc7 80%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -81,7 +81,7 @@ nav {
 }
 
 .navbar__links {
-    color: #fff;
+    color: #8ab1cf;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,18 +109,18 @@ nav {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #960aa8;
-    background-image: linear-gradient(to top, #08ceff 0%, #c099ff 100%);
-    color: #fff;
+    background: #b09bc7;
+    background-image: linear-gradient(to top, #8ab1cf 0%, #b09bc7 100%);
+    color: #5965a4;
 }
 
 .button:hover {
-    background: #4837ff;
+    background: #24346c;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #62bbf7;
+    color: #b09bc7;
     transition: all 0.3s ease;
 }
 
@@ -143,10 +143,10 @@ nav {
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: #131313;
+        background: #5965a4;
     }
     .navbar__menu.active {
-        background: #131313;
+        background: #5965a4;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -216,7 +216,7 @@ nav {
 
 /* Description Section CSS */
 .main {
-    background-color: #4e87d7;
+    background-color: #5965a4;
     overflow: hidden;
 }
 .main__container {
@@ -226,7 +226,7 @@ nav {
     justify-self: center;
     margin: 0 auto;
     height: 75vh;
-    background-color: #4e87d7;
+    background-color: #5965a4;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -234,19 +234,8 @@ nav {
 }
 .main__content h1 {
     font-size: 3rem;
-    background-color: #1d2073;
+    background-color: #24346c;
     /* background-image: linear-gradient(to bottom, #a45cc6 0%, #3cb1cb 100%); */
-    background-size: 100%;
-    font-weight: 450;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-.main__content h2 {
-    font-size: 3rem;
-    background-color: #1d2073;
-    /* background-image: linear-gradient(to top, #a45cc6 0%, #3cb1cb 100%); */
     background-size: 100%;
     font-weight: 450;
     -webkit-background-clip: text;
@@ -257,15 +246,15 @@ nav {
 .main__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
-    color: #afd5eb;
+    color: #8ab1cf;
 }
 .main__btn {
     font-size: 1rem;
-    background-image: linear-gradient(to top, #08ceff 0%, #c099ff 100%);
+    background-image: linear-gradient(to top, #8ab1cf 0%, #b09bc7 100%);
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: #5965a4;
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
@@ -276,7 +265,7 @@ nav {
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: #5965a4;
     text-decoration: none;
 }
 .main__btn:after {
@@ -286,12 +275,12 @@ nav {
     top: 0;
     width: 0;
     height: 100%;
-    background: #4837ff;
+    background: #b09bc7;
     transition: all 0.35s;
     border-radius: 4px;
 }
 .main__btn:hover {
-    color: #fff
+    color: #b09bc7;
 }
 .main__btn:hover:after {
     width: 100%;
@@ -351,7 +340,7 @@ nav {
 /* Team Benefits Section CSS */
 .benefits {
     left: 10rem;
-    background: #3362a4;
+    background: #5965a4;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -379,7 +368,7 @@ nav {
     position: absolute;
     height: 25vh;
     font-size: 1.5rem;
-    color:#afd5eb;
+    color:#8ab1cf;
     overflow: hidden;
 }
 
@@ -397,7 +386,7 @@ nav {
 
 /* Technology Section CSS */
 .technology {
-    background: #19345b;        
+    background: #5965a4;        
     display: flex;
     flex-direction: column; 
     align-items: left;
@@ -430,11 +419,11 @@ nav {
     width: 850px;
     border-radius: 4px;
     position: relative;
-    color: #afd5eb;
+    color: #8ab1cf;
 }
 .technology p {
     margin: 1rem;
-    color: #afd5eb;
+    color: #8ab1cf;
     text-align: left;
 }
 .technology h2 {
@@ -448,7 +437,7 @@ nav {
     position: absolute;
     text-align: left;
     margin-top: 20px;
-    color: #afd5eb;
+    color: #8ab1cf;
 }
 /*.technology__card button {
     color: #fff;
@@ -517,11 +506,11 @@ nav {
     width: 48vw;
     position: relative;
     text-align: left;
-    color: #c0c7eb;
+    color: #445094;
     overflow: hidden;
 }
 .storyboard p {
-    color: #afd5eb;
+    color: #8ab1cf;
     font-size: 1.5rem;
     margin-right: 4rem;
     line-height: 3rem;
@@ -541,10 +530,10 @@ nav {
         width: 48.5vw;
         position: relative;
         text-align: left;
-        color: #c0c7eb;
+        color: #8ab1cf;
     }
     .storyboard p {
-        color: #afd5eb;
+        color: #8ab1cf;
         font-size: 1rem;
         margin-right: 0.5rem;
         line-height: 1.5rem;
@@ -565,7 +554,7 @@ nav {
     margin-left: 20vw;
 }
 .teams h1 {
-    background-color: #afd5eb;
+    background-color: #8ab1cf;
     background-size: 100%;
     margin-top: 3rem;
     margin-left: 5rem;
@@ -746,6 +735,7 @@ nav {
     
 }
 .animation h1 {
+    margin-top: 3rem;
     font-size: 3rem;
     color: #3ca7a7;
 }
@@ -875,7 +865,7 @@ button:hover {
 .profile { 
     width: 140px;
     height: 140px;
-    background: #e4dfb8; 
+    background: #313e58; 
     -moz-border-radius: 70px; 
     -webkit-border-radius: 70px; 
     border-radius: 70px;
@@ -898,7 +888,7 @@ button:hover {
     align-items: center;
 }
 .medias p {
-    color:#afd5eb;
+    color:#8ab1cf;
     font-size: 1rem;
     margin-right: 10rem;
     margin-bottom: 4rem;
@@ -907,8 +897,9 @@ button:hover {
 .medias h1 {
     margin-left: 44%;
     margin-top: 3rem; 
-    color: #afd5eb;
-    font-weight: 450;
+    color: #8ab1cf;
+    font-size: 4rem;
+    font-weight: 500;
 }
 
 
